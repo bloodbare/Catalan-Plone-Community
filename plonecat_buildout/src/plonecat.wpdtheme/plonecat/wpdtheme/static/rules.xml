@@ -20,9 +20,9 @@
             theme-children="/html/head"
             />
 
-        <drop theme="/html/head/style" />
+        <!--<drop theme="/html/head/style" />
         <drop theme="/html/head/script" />
-        <drop theme="/html/head/link" />
+        <drop theme="/html/head/link" />-->
 
         <!-- Copy over the id/class attributes on the body tag.
              This is important for per-section styling -->
