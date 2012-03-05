@@ -1,9 +1,134 @@
 @import "bootstrap/bootstrap.less";
 
 body {
-  padding-top: 60px;
-  padding-bottom: 40px;
-  background: url('img/fons_eixample.png') repeat;
+  padding-top: 130px;
+  background: url('../img/fons_blau.gif') repeat;
+}
+
+
+#capsalera {
+    min-height: 442px;
+    background: white;
+    border-radius: 0.5em;
+    /*background: url('../img/fons_eixample.png') repeat;*/
+}
+
+#wrapper-capsalera {
+}
+
+#edit-bar {
+    display: none;
+}
+
+#compromesos {
+    font-family: 'DINLight';
+    font-size: 44px;
+    background: #3a99d7;
+    border-radius: 0.5em;
+    padding: 20px 20px 30px 20px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+#compromesos b{
+    color: black;
+    font-family: 'DINBlack';
+    font-size: 57px;
+    font-weight: 300;
+}
+
+#obsessionats {
+    background: #3a99d7;
+    border-radius: 0em 0em 0.5em 0.5em;
+    padding: 20px;
+    font-family: 'DINBold';
+    font-size: 17px;
+    font-weight: 300;
+    text-align: center;
+}
+
+#hola {
+    background: #3a99d7;
+    border-radius: 0.5em;
+    padding: 30px 30px 30px 30px;
+    font-family: 'DINBlack';
+    font-size: 40px;
+    font-weight: 300;    
+    text-align: center;
+}
+
+#sota_descripcio {
+    background: #3a99d7;
+    border-radius: 0.5em;
+    padding: 30px 30px 30px 30px;
+    font-family: 'DINRegular';
+    font-size: 18px;
+    font-weight: 300;    
+    text-align: center; 
+    margin-top: 20px;
+}
+
+#navegacio {
+    color: white;
+    font-size: 20px;
+    margin-top: 65px;
+}
+
+.section-front-page .documentFirstHeading {
+    display: none;
+}
+
+#features {
+    text-align: center;
+    margin-top : 30px;
+}
+
+#features .subtitol {
+    margin-top: 10px;
+    font-size: 40px;
+    font-family: 'DINBold';
+    text-shadow: 2px 2px #ccc;
+    line-height: 40px;
+}
+
+
+footer {
+    background-color: #41a2db;
+    margin-top: 30px;
+    color: #66ccff;
+}
+
+footer p {
+    margin-top: 20px;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+// Landscape phones and down
+@media (max-width: 480px) { 
+
+#capsalera {
+    display: none;
+}
+
+}
+ 
+// Landscape phone to portrait tablet
+@media (max-width: 768px) { 
+
+#capsalera {
+    display: none;
+}
+
+}
+ 
+// Portrait tablet to landscape and desktop
+@media (min-width: 768px) and (max-width: 980px) { 
+
+#capsalera {
+    display: none;
+}
+
 }
 
 @import "bootstrap/responsive.less";

@@ -12,9 +12,12 @@
 	<meta name="author" content="">
 
 	<meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="css/stylesheet.css">  
 
 	<link rel="stylesheet/less" href="less/style.less">
 	<script src="js/libs/less-1.2.1.min.js"></script>
+
+
 	
 	<!-- Use SimpLESS (Win/Linux/Mac) or LESS.app (Mac) to compile your .less files
 	to style.css, and replace the 2 lines above by this one:
@@ -29,15 +32,27 @@
 
     <div class="navbar navbar-fixed-top">
       <div class="navbar-inner">
-        <div class="container">
-          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+        <div class="container ">
+          <div class="row">
+          <div class="span3" style="color: white; ">
+            <div style="margin-top: 30px">
+            <p style="vertical-align: bottom; line-height: 20px;" ><span style="font-size: 18px;">world<span style="color: #3a99d7">Plone</span>day</span><br/>
+            <span style="font-size: 30px">BARCELONA</span><br/>
+            <span style="font-size: 14px">Abril 25, 2012 // Fundació Tàpies</span></p>
+          </div>
+          </div>
+
+          <div class="span3">
+          <a class="brand" id="logo" href="#"><img src="img/logo_worldploneday.png"/></a>
+          </div>
+          <div class="span6" id="navegacio">
+                      <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </a>
-          <a class="brand" href="#"><img src="img/logo_wordploneday.png"/></a>
           <div class="nav-collapse">
-            <ul class="nav">
+            <ul class="nav pull-right" id="global-navigation">
               <li class="active"><a href="#">Home</a></li>
               <li><a href="#about">About</a></li>
               <li><a href="#contact">Contact</a></li>
@@ -45,9 +60,11 @@
           </div><!--/.nav-collapse -->
         </div>
       </div>
+        </div>
+      </div>
     </div>
 
-    <div class="container">
+    <div class="container" id="document-content">
 
       <!-- Main hero unit for a primary marketing message or call to action -->
       <div class="hero-unit">
@@ -70,11 +87,33 @@
 
       <hr>
 
+    </div> <!-- /container -->
       <footer>
-        <p>&copy; Company 2012</p>
+       <div class="container ">
+        <div class="row">
+
+          <div class="span4">
+            <p>
+            INFO DE CONTACTE: <br/>
+            <span style="color: white">+34 937422510</span>
+          </p>
+        </div>
+        <div class="span4">
+          <p>
+            ORGANIZED BY: <br/>
+            <a href="http://iskra.cat"><img src="img/logo_iskra.png"/></a>
+          </p>
+        </div>
+        <div class="span4">
+          <p>
+            AMB EL SUPORT DE: <br/>
+            <a href="http://fundaciotapies.org"><img src="img/logo_tapies.png"/></a>
+            <a href="http://www.upcnet.es"><img src="img/logo_upcnet.png"/></a>
+        </div>
+      </div>
+    </div>
       </footer>
 
-    </div> <!-- /container -->
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.1.min.js"><\/script>')</script>
 
