@@ -7,30 +7,30 @@ body {
 
 
 #capsalera {
-    min-height: 442px;
-    background: white;
-    border-radius: 0.5em;
-    /*background: url('../img/fons_eixample.png') repeat;*/
+    min-height: 462px;
+    /*background: white;*/
+    border-bottom: 1px solid; 
+    margin-bottom: 20px;
+    /*border-radius: 0.5em;*/
+    /*background: url('../img/imatge_fons.png') repeat;*/
 }
 
 #wrapper-capsalera {
 }
 
-#edit-bar {
-    display: none;
-}
 
 #compromesos {
     font-family: 'DINLight';
     font-size: 44px;
-    background: #3a99d7;
+    background: white;
     border-radius: 0.5em;
     padding: 20px 20px 30px 20px;
     margin-top: 50px;
     text-align: center;
+    color: #3a99d7;
 }
 
-#compromesos b{
+#compromesos strong{
     color: black;
     font-family: 'DINBlack';
     font-size: 57px;
@@ -38,7 +38,8 @@ body {
 }
 
 #obsessionats {
-    background: #3a99d7;
+    color: #3a99d7;
+    background: white;
     border-radius: 0em 0em 0.5em 0.5em;
     padding: 20px;
     font-family: 'DINBold';
@@ -48,17 +49,19 @@ body {
 }
 
 #hola {
-    background: #3a99d7;
+    color: #3a99d7;
+    background: white;
     border-radius: 0.5em;
     padding: 30px 30px 30px 30px;
     font-family: 'DINBlack';
-    font-size: 40px;
+    font-size: 25px;
     font-weight: 300;    
     text-align: center;
 }
 
 #sota_descripcio {
-    background: #3a99d7;
+    color: #3a99d7;
+    background: white;
     border-radius: 0.5em;
     padding: 30px 30px 30px 30px;
     font-family: 'DINRegular';
@@ -68,19 +71,42 @@ body {
     margin-top: 20px;
 }
 
+#logo_mig {
+    position: absolute;
+    left: 38%;
+}
+
+.label {
+    background: none;
+}
+
 #navegacio {
     color: white;
     font-size: 20px;
-    margin-top: 65px;
+    margin-top: 25px;
 }
 
 .section-front-page .documentFirstHeading {
     display: none;
 }
 
+.field {
+    margin-top: 15px;
+}
+
+.field label {
+    font-size: 20px;
+    color: white;
+    display: inline-block;
+}
+
+.widget input {
+    margin-right: 10px;
+}
+
 #features {
     text-align: center;
-    margin-top : 30px;
+    margin-top : 50px;
 }
 
 #features .subtitol {
@@ -101,7 +127,60 @@ footer {
 footer p {
     margin-top: 20px;
     font-size: 20px;
-    line-height: 40px;
+    line-height: 50px;
+}
+
+#noupaper {
+    float: right;
+    text-shadow: 1px 1px #ccc;
+    padding: 10px;
+}
+
+#login-forgotten-password a {
+    font-size: 1.5em;
+}
+
+#login-new-user a {
+    font-size: 1.5em;
+}
+
+.portalMessage {
+    .alert;
+}
+.error{
+    .alert-error;
+}
+
+#personal-tools {
+    font-size: 14px;
+    float: right;
+    padding: 0px 10px 0px 10px;
+}
+
+#portal-personaltools {
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.caret {
+    color: white;
+}
+
+input, textarea, select, .uneditable-input {
+    width: auto;
+}
+
+#descripcio_ifr {
+    background: white;
+}
+
+.suppressVisualEditor {
+    display: none;
+}
+
+dt {
+    font-family: 'DINBold';
+    font-weight: 300;
 }
 
 // Landscape phones and down
@@ -109,7 +188,9 @@ footer p {
 
 #capsalera {
     display: none;
-}
+ }
+
+#logo_mig { display:none;}
 
 }
  
@@ -120,6 +201,8 @@ footer p {
     display: none;
 }
 
+#logo_mig { display:none;}
+
 }
  
 // Portrait tablet to landscape and desktop
@@ -128,6 +211,8 @@ footer p {
 #capsalera {
     display: none;
 }
+
+#logo_mig { left: 31%; opacity: 0.8; z-index: 0;}
 
 }
 

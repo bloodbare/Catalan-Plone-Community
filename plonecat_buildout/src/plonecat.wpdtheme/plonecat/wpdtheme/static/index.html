@@ -34,23 +34,33 @@
       <div class="navbar-inner">
         <div class="container ">
           <div class="row">
-          <div class="span3" style="color: white; ">
+          <div class="span4" style="color: white; ">
             <div style="margin-top: 30px">
             <p style="vertical-align: bottom; line-height: 20px;" ><span style="font-size: 18px;">world<span style="color: #3a99d7">Plone</span>day</span><br/>
             <span style="font-size: 30px">BARCELONA</span><br/>
-            <span style="font-size: 14px">Abril 25, 2012 // Fundació Tàpies</span></p>
+            <span style="font-size: 14px">Abril 25, 2012 // Fundació Antoni Tàpies</span></p>
           </div>
           </div>
 
           <div class="span3">
           <a class="brand" id="logo" href="#"><img src="img/logo_worldploneday.png"/></a>
           </div>
-          <div class="span6" id="navegacio">
-                      <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+          <div class="span5" id="navegacio">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </a>
+          <div class="row">
+          <div id="personal-tools">
+          </div>
+        </div>
+            <div class="row">
+          <div id="noupaper">
+            <a href="/inscripcions">INSCRIURE UNA PRESENTACIÓ</a>
+          </div>
+        </div>
+        <div class="row">
           <div class="nav-collapse">
             <ul class="nav pull-right" id="global-navigation">
               <li class="active"><a href="#">Home</a></li>
@@ -58,9 +68,15 @@
               <li><a href="#contact">Contact</a></li>
             </ul>
           </div><!--/.nav-collapse -->
+         </div>
         </div>
       </div>
         </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div id="message">
       </div>
     </div>
 
@@ -95,7 +111,8 @@
           <div class="span4">
             <p>
             INFO DE CONTACTE: <br/>
-            <span style="color: white">+34 937422510</span>
+            <span style="color: white">+34 937422510</span><br/>
+            <span style="color: white">info@iskra.cat</span>
           </p>
         </div>
         <div class="span4">
@@ -107,7 +124,7 @@
         <div class="span4">
           <p>
             AMB EL SUPORT DE: <br/>
-            <a href="http://fundaciotapies.org"><img src="img/logo_tapies.png"/></a>
+            <a href="http://fundaciotapies.org"><img src="img/logo_tapies.png"/></a><br/>
             <a href="http://www.upcnet.es"><img src="img/logo_upcnet.png"/></a>
         </div>
       </div>
@@ -119,9 +136,11 @@
 
 <script src="js/libs/bootstrap/transition.js"></script>
 <script src="js/libs/bootstrap/collapse.js"></script>
-
+<script src="js/libs/bootstrap/dropdown.js"></script>
 <script src="js/script.js"></script>
 <script>
+
+
 	var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
 	(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
 	g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
