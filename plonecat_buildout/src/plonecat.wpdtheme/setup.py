@@ -25,7 +25,6 @@ setup(name='plonecat.wpdtheme',
       zip_safe=False,
       install_requires=[
           'setuptools',
-          'plone.app.theming'
           # -*- Extra requirements: -*-
       ],
       entry_points="""
@@ -34,6 +33,4 @@ setup(name='plonecat.wpdtheme',
       [z3c.autoinclude.plugin]
       target = plone
       """,
-      setup_requires=["PasteScript"],
-      paster_plugins=["ZopeSkel"],
       )
